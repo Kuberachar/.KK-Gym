@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.banner{
+    background-image: url(./KK\ gymlogo.jpg);
+    height: 17vw;
+    width: 100vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:50%;
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {
+    .banner{
+        height: 45vw;
+        width: 100vw;
+        background-size: 105%;
+    }
+    
+}
+
+h1{
+    text-align: center;
+    color:lightskyblue;
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size:large;
+    }
+    
+}
+
+.nav{
+    background-color:chocolate;
+    overflow: hidden;
+    padding: 0%;
+}
+
+.nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    text-align:justify;
+    font-size: xx-large;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav a:visited{
+    background-color: aliceblue;
+}
+
+h2{
+    background-position: center;
+    text-align: center;
+    background: rgb(3,242,191);
+background: linear-gradient(90deg, rgba(3,242,191,1) 0%, rgba(5,255,155,1) 51%, rgba(0,251,33,1) 97%);
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        font-size:medium
+    }
+    
+}
+/*
+@media screen and (max-width:600px) {
+    p{
+        style="font-size: xx-small"
+    }
+    
+}*/
